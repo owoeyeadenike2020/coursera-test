@@ -1,0 +1,106 @@
+*{
+	box-sizing: border-box;}
+
+h1{
+	text-align: center;
+	color: #b400ff;
+	font-family: arial;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+.container{
+	position: relative;
+	color: #00b1ff;
+	width: 100%;
+}
+p{
+	height: 70px;
+	padding: 5px 20px 20px 20px;
+}
+ div.head{
+	background-color: black;
+	width: 35%;
+	text-align: center;
+	position: relative;
+	top: 0%;
+	left: 68%;
+	font-size: 150%;
+	font-family: times;
+	border: 1px solid #ff0060a1;
+	text-transform: uppercase;
+}
+.con-1{
+	background-color: #000000b0;
+	border: 1px solid #b400ff;
+	height: 200px;
+	overflow: hidden;
+}
+.con-2{
+	background-color: #000000b0;
+	border: 1px solid #b400ff;
+	height: 200px;
+	overflow: hidden;
+}
+.con-3{
+	background-color: #000000b0;
+	border: 1px solid #b400ff;
+	height: 200px;
+	overflow: hidden;
+}
+@media (min-width: 992px)
+{
+	.con-1{
+	width: 33%;
+	float: left;
+	margin: 0.1%;
+	
+	}
+	.con-2{
+	width: 33%;
+	float: left;
+	margin: 0.1%;
+	
+	}
+	.con-3{
+	width: 33%;
+	float: left;
+	margin: 0.1%;
+	
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	.con-1{
+		width: 49%;
+		float: left;
+		margin-right: 1%;
+		
+	}
+	.con-2{
+		width: 49%;
+		float: left;
+		margin-left: 1%;
+		
+	}
+	.con-3{
+		width: 100%;
+		float: left;
+		margin-top: 2%;
+	}
+}
+@media (max-width: 767px){
+	.col-1{
+		width: 100%;
+		margin-top: 10%;
+		margin-bottom: 20%;
+	}
+	.col-2{
+		width: 100%;
+		margin-top: 10%;
+		margin-bottom: 20%;
+	}
+	.col-3{
+		width: 100%;
+		margin-top: 10%;
+		margin-bottom: 20%;
+	}
+}
